@@ -15,7 +15,7 @@ import MainChart from './components/MainChart';
 import mockEventData from '../mocks/eventData';
 
 const statusStyles = {
-  success: 'bg-green-100 text-green-800',
+  success: 'bg-blue-100 text-blue-800',
   processing: 'bg-yellow-100 text-yellow-800',
   failed: 'bg-gray-100 text-gray-800',
 };
@@ -99,7 +99,7 @@ export default function Homepage() {
                     <dt className="sr-only">Account status</dt>
                     <dd className="mt-3 flex items-center text-sm text-gray-500 font-medium sm:mr-6 sm:mt-0 capitalize">
                       <CheckCircleIcon
-                        className="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400"
+                        className="flex-shrink-0 mr-1.5 h-5 w-5 text-blue-400"
                         aria-hidden="true"
                       />
                       Verified shady super coder
@@ -111,13 +111,13 @@ export default function Homepage() {
             <div className="mt-6 flex space-x-3 md:mt-0 md:ml-4">
               <button
                 type="button"
-                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 Open Channel
               </button>
               <button
                 type="button"
-                className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 Send BTC
               </button>
